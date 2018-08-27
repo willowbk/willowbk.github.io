@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Willow Kion-Crosby"
 title_separator          : "-"
 name                     : "Willow Kion-Crosby"
-description              : "personal description"
+description              : "Willow Kion-Crosby's Academic Website"
 url                      : https://willowbk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "willowbk/willowbk.github.io"
@@ -79,10 +79,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Willow Kion-Crosby"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Graduate student studying Biological Physics"
+  location         : "Rutgers University"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
@@ -93,7 +93,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "willowbk"
   google_plus      :
   keybase          :
   instagram        :
