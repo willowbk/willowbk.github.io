@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Biophysics in Network Science, Stochastic Processing, and Molecular Evoluation"
+title: "Biophysics in Network Science, Stochastic Processes, and Molecular Evoluation"
 excerpt: "I am a researcher near completion of my Ph.D in Physics & Astronomy"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
+<!---
 A data-driven personal website
 ======
 just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
@@ -41,3 +41,4 @@ Example: editing a markdown file for a talk
 For more info
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+--->
