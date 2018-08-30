@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Willow Kion-Crosby"
+title                    : "Willow Kion-Crosby's Academic Website"
 title_separator          : "-"
 name                     : "Willow Kion-Crosby"
 description              : "Willow Kion-Crosby's Academic Website"
@@ -18,7 +18,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -28,7 +28,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -84,8 +84,8 @@ author:
   bio              : "Graduate student studying Biological Physics"
   location         : "Rutgers University"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&user=SGxE340AAAAJ"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -98,7 +98,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/willow-kion-crosby-5b333346/"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
