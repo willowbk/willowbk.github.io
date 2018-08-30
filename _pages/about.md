@@ -1,12 +1,14 @@
 ---
 permalink: /
-title: "Biophysics in Network Science, Stochastic Processes, and Molecular Evoluation"
-excerpt: "I am a researcher near completion of my Ph.D in Physics & Astronomy"
+title: "Biophysics in Network Science, Stochastic Processes, Optimization, and Molecular Evolution"
+excerpt: "I am a researcher near completion of my Ph.D in Physics & Astronomy studying various topics in the field of Biological Physics."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+
 <!---
 A data-driven personal website
 ======
