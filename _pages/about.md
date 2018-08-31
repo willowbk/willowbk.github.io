@@ -8,6 +8,18 @@ redirect_from:
   - /about.html
 ---
 
+Network Science 
+======
+Complex networks describe a broad spectrum of systems in nature, science, technology, and society. Many of these networks are large and evolving, making
+investigation of their statistical properties a challenging task. In particular, estimating the network size becomes non-trivial if the network is too large to visit every node. Consequently, predicting various network statistics, typically from random samples of limited size, has attracted considerable attention in the
+literature.
+
+This research project has consisted of the development of a Bayesian theoretical framework for network sampling by random walks (RWs). Unlike previous results, this framework can be used to build
+posterior probability distributions for any network node-based quantity of interest. This approach reproduces several previously known global network statistics estimators within a single formalism,
+automatically removes statistical biases caused by RW sampling, and yields standard results in the uniform sampling limit. Surprisingly, accurate estimates of various network properties, including its size, are obtained
+after examining only a small fraction of all network nodes.
+
+The effectiveness of this formalism has been demonstrated not only on standard $\textit{in silico}$ networks, but additonally has been shown to have applications in epidemiology, and has reproduced known statistics of the network formed by links between pages on Wikipedia.
 
 <!---
 A data-driven personal website
