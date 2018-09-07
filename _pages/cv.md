@@ -31,7 +31,7 @@ Research Experience
 Presentations
 ======
   <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
+    {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
 Poster Sessions
@@ -49,7 +49,7 @@ Awards & Fellowships
 Teaching Experience
 ======
   <ul>{% for post in site.teaching %}
-    {% include archive-single-teaching-cv.html %}
+    {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service & leadership
