@@ -4,7 +4,7 @@ collection: talks
 type: "Presentation"
 permalink: /talks/APSCodonBias
 venue: "Los Angeles Convention Center"
-date: 2018-09-03
+date: 2018-03-09
 location: "Los Angeles, California"
 ---
 
