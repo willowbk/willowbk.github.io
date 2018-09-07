@@ -1,13 +1,13 @@
 # Authors
 
 Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+  name        : "Willow Kion-Crosby"
+  uri         : #"http://name.com"
+  email       : "wbk7@physics.rutgers.edu"
+  bio         : "Physics & Astronomy Ph.D candidate at Rutgers University"
+  avatar      : "GitHubProfile.png"
+  twitter     : #"name"
+  google_plus : #"Name"
 
 Name2 Name2:
   name        : "Name2 Name2"
