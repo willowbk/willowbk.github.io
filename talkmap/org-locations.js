@@ -1,8 +1,8 @@
 var addressPoints = [
   [
-    "Piscataway, NJ",
+    "Rutgers, the State University of New Jersey \n Piscataway, NJ",
     40.5231,
-    74.4649
+    -74.4649
   ],
   [
     "Los Angeles, CA",
