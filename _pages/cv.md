@@ -36,8 +36,16 @@ Presentations
 
 Poster Sessions
 ======
+  <ul>{% for post in site.posters %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Awards & Fellowships
 ======
+* Rutgers Excellence Fellowship, 2017-2018
+* TA/GA Professional Development Fund
+* Richard J. Plano Outstanding Teaching Assistant
+
 Teaching Experience
 ======
   <ul>{% for post in site.teaching %}
@@ -46,10 +54,10 @@ Teaching Experience
   
 Service & leadership
 ======
-* Vice President of the Rutgers Physics Graduate Student Organization (GSO)
-* Organizer of the Student Seminars in Physics and Astronomy at Rutgers
-* Mentor to an undergraduate physics student completing a Rutgers Senior Honors Thesis.
-* Mentor to a high school student conducting research for the Siemens Competition.
+* Vice President of the Rutgers Physics Graduate Student Organization (GSO), 2018 - 2019 
+* Organizer of the Student Seminars in Physics and Astronomy at Rutgers, 2018 - 2019
+* Mentor to an undergraduate physics student completing a Rutgers Senior Honors Thesis, 2017 - 2018
+* Mentor to a high school student conducting research for the Siemens Competition, 2016
 
 Skills
 ======
