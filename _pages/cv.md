@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Physics & Astronomy, Rutgers University, 2019 (expected)
+* Ph.D in Physics & Astronomy, Rutgers University, 2019 (expected)  
   Dissertation advisor: Prof. Alexandre V. Morozov
   
 * B.S. in Physics & Astronomy, University of Delaware, 2013
@@ -37,14 +37,14 @@ Presentations
 Poster Sessions
 ======
   <ul>{% for post in site.posters %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-poster-cv.html %}
   {% endfor %}</ul>
 
 Awards & Fellowships
 ======
 * Rutgers Excellence Fellowship, 2017-2018
-* TA/GA Professional Development Fund
-* Richard J. Plano Outstanding Teaching Assistant
+* TA/GA Professional Development Fund, 2017
+* Richard J. Plano Outstanding Teaching Assistant, 2016
 
 Teaching Experience
 ======
