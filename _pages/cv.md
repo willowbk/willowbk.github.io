@@ -59,9 +59,9 @@ Skills
   * G (LabVIEW)
   * Java (experienced with Android application development.)
   * C++
-  * MIPS (only in the context of [QtSPIM](http://spimsimulator.sourceforge.net/))
+  * MIPS (only in the context of [QtSpim](http://spimsimulator.sourceforge.net/))
   * ActionScript (Macromedia Flash)
-  * \LaTeX
+  * $\LaTeX$
   * Markdown
 * Microcontroller Experience
   * Raspberry Pi
