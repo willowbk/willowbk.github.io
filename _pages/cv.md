@@ -49,7 +49,7 @@ Awards & Fellowships
 Teaching Experience
 ======
   <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-teaching-cv.html %}
   {% endfor %}</ul>
   
 Service & leadership
