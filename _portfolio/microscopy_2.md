@@ -6,6 +6,6 @@ collection: portfolio
 
 This set of images was taken of a cluster of cells from a cheek swab at various magnifications.
 
-<br/><img src='/images/2016-08-02-195940.jpg' height='300' width='300'> 
-<img src='/images/2016-08-06-205001.jpg'>
+<br/><img src='/images/2016-08-02-195940.jpg' height='400' width='450'> 
+<img src='/images/2016-08-06-205001.jpg' height='400' width='450'>
 
