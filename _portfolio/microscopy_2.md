@@ -1,10 +1,10 @@
 ---
-title: "Bcterial culture grown on LB agar for several days"
-excerpt: "<br/><img src='/images/2016-08-02-195940.jpg' height='250' width='250'>"
+title: "Bacterial culture grown on LB agar for several days"
+excerpt: "<br/><img src='/images/2016-08-02-195940.jpg' height='200' width='200'>"
 collection: portfolio
 ---
 
-This set of images was taken of a cluster of cells from a cheek swab at various magnifications.
+The growth pattern of bacteria grown on rich medium. The second image was taken at 800x magnification.
 
 <br/><img src='/images/2016-08-02-195940.jpg' height='400' width='450'> 
 <img src='/images/2016-08-06-205001.jpg' height='400' width='450'>
