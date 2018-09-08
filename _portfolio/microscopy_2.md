@@ -1,5 +1,5 @@
 ---
-title: "Bacterial culture grown on LB agar for several days"
+title: "Bacterial culture on LB medium"
 excerpt: "<br/><img src='/images/2016-08-02-195940.jpg' height='250' width='250'>"
 collection: portfolio
 ---
