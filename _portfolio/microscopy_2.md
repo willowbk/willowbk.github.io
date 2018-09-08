@@ -1,6 +1,6 @@
 ---
 title: "Bacterial culture grown on LB agar for several days"
-excerpt: "<br/><img src='/images/2016-08-02-195940.jpg' height='200' width='200'>"
+excerpt: "<br/><img src='/images/2016-08-02-195940.jpg' height='250' width='250'>"
 collection: portfolio
 ---
 
