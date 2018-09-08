@@ -8,4 +8,4 @@ This set of images were taken of a cluster of cells from a cheek swab taken at v
 
 <br/><img src='/images/2016-07-20-213010.jpg'> 
 <img src='/images/figure_multi.png'>
-<img src='/images/figure_13.png'>
+<img src='/images/MicroPics-1389341935.jpeg'>
