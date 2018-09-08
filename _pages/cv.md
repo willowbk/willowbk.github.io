@@ -46,7 +46,7 @@ This research consisted of the operation and maintenance of a high-intensity las
 used to examine the scattering behavior of high-speed electrons in the presence of an external
 magnetic field.
 
-Presentations
+Presentations & Posters
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-cv.html %}
