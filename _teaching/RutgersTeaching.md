@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate recitations and lab sections"
 permalink: /teaching/RutgersTeaching
 venue: "Rutgers University, Department of Physics & Astronomy"
-date: 2013-09-01,2019-05-15
+date: 2013-2019
 location: "Pistataway, NJ"
 ---
 
