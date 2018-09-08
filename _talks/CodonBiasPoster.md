@@ -1,5 +1,5 @@
 ---
-title: "Fundamentals of Codon Bias; Poster"
+title: "Fundamentals of Codon Bias"
 collection: talks
 type: "Poster"
 permalink: /talks/CodonBiasPoster
