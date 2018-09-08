@@ -36,9 +36,9 @@ Presentations
 
 Poster Sessions
 ======
-<!--  <ul>{% for post in site.posters %}
-    {% include archive-single-poster-cv.html %}
-  {% endfor %}</ul> -->
+ <ul>{% for post in site.posters %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul> 
 
 Awards & Fellowships
 ======
