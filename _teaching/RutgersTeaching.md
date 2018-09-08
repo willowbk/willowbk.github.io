@@ -4,15 +4,9 @@ collection: teaching
 type: "Undergraduate recitations and lab sections"
 permalink: /teaching/RutgersTeaching
 venue: "Rutgers University, Department of Physics & Astronomy"
-date: 2013-09-01 2019-05-15
+date: 2013-09-01,2019-05-15
 location: "Pistataway, NJ"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+During my time at Rutgers University, I have been teaching both recitation and lab sections for the Spring, Summer and Fall sessions for all but two semesters of my graduate career. Through this experience, I have had the opportunity to teach a great variety topics in classical mechanics, electromagnetism, optics, quantum mechanics, nuclear physics, special relativity, and medical physics. 
 
-General Physics I & II Recitations
-======
-Topics covered include  
-
-General Physics I & II Lab Sections
-======
