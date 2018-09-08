@@ -14,4 +14,4 @@ global properties of complex networks via random walk sampling. This methodology
 of the full network to be sampled, and is general to all weighted, undirected networks. More detail and application
 of this topic can be found [here](http://willowbk.github.io/files/RapidBayesianInferenceofGlobalNetworkStatisticsUsingRandomWalks.pdf).
 
-[Download poster here](http://willowbk.github.io/files/NetworkStatisticsPoster.pdf)
+[See full poster here](http://willowbk.github.io/files/NetworkStatisticsPoster.pdf)
