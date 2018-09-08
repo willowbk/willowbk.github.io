@@ -5,7 +5,7 @@ collection: talks
 type: "Poster"
 permalink: /talks/NetworkInferencePoster
 venue: "Los Angeles Convention Center"
-date: 2017-07-27
+date: 2018-03-08
 location: "Los Angeles, CA"
 ---
 
