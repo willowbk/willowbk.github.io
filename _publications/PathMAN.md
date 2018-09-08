@@ -10,4 +10,4 @@ paperurl: 'http://willowbk.github.io/files/PathMAN.pdf'
 ---
 This paper provides the theoretical background of a recursive method for calculating the statistics of the path ensemble on arbitrary state-spaces. A [Python implementation](https://github.com/michaelmanhart/pathman) is also developed and demonstrated on several example systems. The statistics calculated include the moments of the first-passage distribution, the full path-length distribution, and several system state-dependent quantites. 
 
-[Download paper here](http://willowbk.github.io/files/PathMAN.pdf)
+[See full paper here](http://willowbk.github.io/files/PathMAN.pdf)
