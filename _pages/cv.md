@@ -34,12 +34,6 @@ Presentations
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Poster Sessions
-======
- <ul>{% for post in site.posters %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> 
-
 Awards & Fellowships
 ======
 * Rutgers Excellence Fellowship, 2017-2018
