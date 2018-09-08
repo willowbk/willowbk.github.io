@@ -24,9 +24,27 @@ Publications
 
 Research Experience
 ======
-  <ul>{% for post in site.research %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+Theoretical and Computational Biological Physics, 2013-2019  
+Rutgers University, Piscataway, NJ  
+Advisor: Prof. Alexandre V. Morozov  
+Topics include biophysics of complex networks, first-passage process theory, objective function optimization, and the codon usage bias.
+
+Computational Astronomy, 2013  
+University of Delaware, Newark, DE  
+Advisor: Prof. John Gizis  
+An examination of statistical signatures of magnitudes of brown dwarfs in data collected by the Wide-field Infrared Survey Explorer.
+
+Experimental Condensed Matter Physics 2012  
+University of Delaware, Newark, DE  
+Advisor: Prof. Norbert Mulders  
+The construction of an automated oven system for the production of aerogels.
+
+Atomic and Molecular Optical Physics, 2010-2012  
+University of Delaware, Newark, DE  
+Advisor: Prof. Barry Walker  
+This research consisted of the operation and maintenance of a high-intensity laser system
+used to examine the scattering behavior of high-speed electrons in the presence of an external
+magnetic field.
 
 Presentations
 ======
