@@ -1,5 +1,5 @@
 ---
-title: "Red blood cells"
+title: "Enhanced red blood cells"
 excerpt: "<br/><img src='/images/figure_19.png' height='250' width='250'>"
 collection: portfolio
 ---
