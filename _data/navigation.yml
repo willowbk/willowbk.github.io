@@ -3,10 +3,10 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Presentations <\b> & Posters"
+  - title: "Presentations <\br> & Posters"
     url: /talks/    
 
-  - title: "Microscopy <\b> & Biometrics"
+  - title: "Microscopy <\br> & Biometrics"
     url: /portfolio/
 
   - title: "Teaching"
