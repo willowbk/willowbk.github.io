@@ -1,5 +1,5 @@
 ---
-title: "Fundamental Sources of Codon Bias; Talk"
+title: "Fundamental Sources of Codon Bias"
 collection: talks
 type: "Presentation"
 permalink: /talks/APSCodonBias
