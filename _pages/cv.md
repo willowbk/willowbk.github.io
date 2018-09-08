@@ -54,9 +54,9 @@ Presentations
 
 Awards & Fellowships
 ======
-* **Rutgers Excellence Fellowship**, 2017-2018
-* **TA/GA Professional Development Fund**, 2017
-* **Richard J. Plano Outstanding Teaching Assistant**, 2016
+* Rutgers Excellence Fellowship, 2017-2018
+* TA-GA Professional Development Fund, 2017
+* [Richard J. Plano Outstanding Teaching Assistant, 2016](https://www.physics.rutgers.edu/ugrad/awards/plano_ta.html)
 
 Teaching Experience
 ======
