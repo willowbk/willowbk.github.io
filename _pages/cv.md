@@ -48,7 +48,7 @@ magnetic field.
 
 Presentations & Posters
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
@@ -60,7 +60,7 @@ Awards & Fellowships
 
 Teaching Experience
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
