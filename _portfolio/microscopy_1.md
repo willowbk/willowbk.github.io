@@ -1,6 +1,6 @@
 ---
 title: "Epithelial cell cluster"
-excerpt: "<br/><img src='/images/2016-07-20-213010.jpg' height='300' width='300'>"
+excerpt: "<br/><img src='/images/2016-07-20-213010.jpg' height='250' width='250'>"
 collection: portfolio
 ---
 
