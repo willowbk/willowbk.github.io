@@ -1,6 +1,6 @@
 ---
 title: "Amplified pulse voltage"
-excerpt: "<br/><img src='/images/data_2.png' height='250' width='250'>"
+excerpt: "<br/><img src='/images/data_2.png' height='300' width='300'>"
 collection: portfolio
 ---
 
