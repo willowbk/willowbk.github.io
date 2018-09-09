@@ -22,7 +22,11 @@ where $\mathcal{K}_k$ is the number of visits to any node with connectivity $k$.
 
 Epidemiology
 ====
-A clear example of a complex network in the life sciences is one which describes a geographical region through which a pathogen might spread. This could be the network of all major cities in the world, with dynamical links representing traffic between each city, or the network of all major airports, etc. Although this is a dynamical network with time-dependent properties upon which the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. Such a network has been sampled [here](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected accurately estimated. 
+A clear example of a complex network in the life sciences is one which describes a geographical region through which a pathogen might spread. This could be the network of all major cities in the world, with dynamical links representing traffic between each city, or the network of all major airports, etc. Although this is a dynamical network with time-dependent properties upon which the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. Such a network has been sampled both in [this poster](https://willowbk.github.io/talks/NetworkInferencePoster) and [this paper](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected accurately estimated. This then suggests a new method for tracking the spread of diseases such as the recent Ebola outbreak.
+
+Cancer Research
+====
+Although in its early stages, I have begun a project to use the network sampling methodology to determine which groups of genes are responsible for the metabolism of cancerous cells. More to come on this topic in the near future!
 
 
 <!--
