@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Biophysics in Network Science, Molecular Evolution, Stochastic Processes, and Optimization"
-excerpt: "I am a researcher near completion of my Ph.D in Physics & Astronomy studying various topics in the field of Biological Physics."
+excerpt: "I am a researcher near completion of my Ph.D in Physics & Astronomy studying various topics in the field of biological physics."
 author_profile: true
 redirect_from: 
   - /about/
