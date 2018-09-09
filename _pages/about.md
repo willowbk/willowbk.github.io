@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-The field of biophysics covers a vast umbrella of topics. During my graduate career I have delved into several subfields of this enormous science with the hope to grasp the mysteries of life on a fundamental level. This has been attempted primarily through the avenues of complex network science and inference, molecular evolution and population genetics modeling, the study of stochastic processes and even objective function optimization. The following sections overview some of the work I have completed in the last few years.
+The field of biophysics covers a vast umbrella of topics. During my graduate career I have delved into several subfields of this enormous science with the hope to grasp the mysteries of life on a fundamental level. This has been attempted primarily through the avenues of complex network science and inference, molecular evolution and population genetics modeling, the study of stochastic processes and even objective function optimization. The following sections overview some of the work I have completed in the last few years on these topics.
 
 Sampling Complex Networks
 ====
