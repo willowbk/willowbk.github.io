@@ -81,7 +81,7 @@ Skills
   * Java (experienced with Android application development.)
   * C++
   * MIPS (only in the context of [<span style="color:cyan">QtSpim</span>](http://spimsimulator.sourceforge.net/))
-  * ActionScript (examples can be found [<span style="color:cyan">here</span>](https://sites.google.com/site/willowsportfolio/Home/physics-simulations))
+  * ActionScript (examples can be found [<span style="color:#4bcadd">here</span>](https://sites.google.com/site/willowsportfolio/Home/physics-simulations))
   * $\LaTeX$
   * Markdown
 * Microcontroller Experience
