@@ -1,16 +1,28 @@
 ---
 permalink: /
-title: "Biophysics in Network Science, Stochastic Processes, Optimization, and Molecular Evolution"
+title: "Biophysics in Network Science, Molecular Evolution, Stochastic Processes, and Optimization"
 excerpt: "I am a researcher near completion of my Ph.D in Physics & Astronomy studying various topics in the field of Biological Physics."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-$\qquad$The field of biophysics covers a vast umbrella of topics. During my graduate career I have delved into several subfields of this enormous science with the intent to grasp the mysteries of life on a fundamental level. This has been attempted primarily through the avenues of molecular evolution and population genetics modeling, complex network science and inference, the study of stochastic processes and even objective function optimization.
+$\qquad$The field of biophysics covers a vast umbrella of topics. During my graduate career I have delved into several subfields of this enormous science with the hope to grasp the mysteries of life on a fundamental level. This has been attempted primarily through the avenues of complex network science and inference, molecular evolution and population genetics modeling, the study of stochastic processes and even objective function optimization.  
+
+The instances of complex networks in the life sciences are endless. Examples include protein interaction networks, neural networks, networks of predator-prey interactions, etc. In my own research, I have focused on weighted, undirected networks, the main contribution being a general Bayesian formalism for generating estimators of global network properties after sampling only a very small portion of the entire system. The method of sampling is via [random walk](https://en.wikipedia.org/wiki/Random_walk), e.i. after a single node is examined a random neighbor to this node is chosen as the next sample, and this process is continued until the number of desired samples is attained. According to this Bayesian formalism, the 
 
 $\widehat{\langle w \rangle} = \frac{\ell}{\sum_w \mathcal{K}_w / w}$
 
+$$
+\begin{aligned}
+ AR(p): Y_i &= c + \epsilon_i + \phi_i Y_{i-1} \dots \\
+ Y_{i} &= c + \phi_i Y_{i-1} \dots
+\end{aligned}
+$$
+\begin{aligned}
+x&=1\label{eq:1}\\
+y&=2
+\end{aligned}
 <!--
 Network Science 
 ======
