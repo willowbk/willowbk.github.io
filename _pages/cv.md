@@ -56,8 +56,8 @@ Awards & Fellowships
 ======
 * Rutgers Excellence Fellowship, Rutgers University, 2017-2018
 * TA-GA Professional Development Fund, Rutgers University, 2017
-* [<span style="color:cyan">Richard J. Plano Outstanding Teaching Assistant</span>](https://www.physics.rutgers.edu/ugrad/awards/plano_ta.html), Rutgers University, 2016
-* [<span style="color:lightblue">Undergraduate Summer Scholars Research Experience</span>](http://www.urp.udel.edu/urp/summer-research/summer-scholars/), University of Delaware, 2011
+* [<span style="color:#4bcadd">Richard J. Plano Outstanding Teaching Assistant</span>](https://www.physics.rutgers.edu/ugrad/awards/plano_ta.html), Rutgers University, 2016
+* [<span style="color:#4bcadd">Undergraduate Summer Scholars Research Experience</span>](http://www.urp.udel.edu/urp/summer-research/summer-scholars/), University of Delaware, 2011
 
 Teaching Experience
 ======
@@ -67,10 +67,10 @@ Teaching Experience
   
 Service & leadership
 ======
-* **Vice President** of the [<span style="color:cyan">Rutgers Physics Graduate Student Organization (GSO)</span>](http://www.physics.rutgers.edu/GSO/), 2018 - 2019 
-* **Organizer** of the [<span style="color:cyan">Student Seminars in Physics and Astronomy at Rutgers</span>](http://www.physics.rutgers.edu/gso/SSPAR/), 2018 - 2019
-* **Mentor** to an undergraduate physics student completing a [<span style="color:cyan">Rutgers Senior Honors Thesis</span>](https://amerstudies.rutgers.edu/academics/undergraduate/honors/senior-honors-thesis), 2017 - 2018
-* **Mentor** to a high school student conducting research for the [<span style="color:cyan">Siemens Competition</span>](http://www.siemens-foundation.org/programs/siemens-competition-archives/2017/2017-semifinalists/), 2016
+* **Vice President** of the [<span style="color:#4bcadd">Rutgers Physics Graduate Student Organization (GSO)</span>](http://www.physics.rutgers.edu/GSO/), 2018 - 2019 
+* **Organizer** of the [<span style="color:#4bcadd">Student Seminars in Physics and Astronomy at Rutgers</span>](http://www.physics.rutgers.edu/gso/SSPAR/), 2018 - 2019
+* **Mentor** to an undergraduate physics student completing a [<span style="color:#4bcadd">Rutgers Senior Honors Thesis</span>](https://amerstudies.rutgers.edu/academics/undergraduate/honors/senior-honors-thesis), 2017 - 2018
+* **Mentor** to a high school student conducting research for the [<span style="color:#4bcadd">Siemens Competition</span>](http://www.siemens-foundation.org/programs/siemens-competition-archives/2017/2017-semifinalists/), 2016
 
 Skills
 ======
@@ -80,7 +80,7 @@ Skills
   * G (LabVIEW)
   * Java (experienced with Android application development.)
   * C++
-  * MIPS (only in the context of [<span style="color:cyan">QtSpim</span>](http://spimsimulator.sourceforge.net/))
+  * MIPS (only in the context of [<span style="color:#4bcadd">QtSpim</span>](http://spimsimulator.sourceforge.net/))
   * ActionScript (examples can be found [<span style="color:#4bcadd">here</span>](https://sites.google.com/site/willowsportfolio/Home/physics-simulations))
   * $\LaTeX$
   * Markdown
