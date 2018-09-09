@@ -18,11 +18,11 @@ The instances of [complex networks](https://en.wikipedia.org/wiki/Complex_networ
 \widehat{\langle k \rangle} = \frac{\ell}{\sum_k \mathcal{K}_k / k},
 \end{aligned}
 
-where $\mathcal{K}_k$ is the number of visits to any node with connectivity $k$. This formalism also establishes a rigorous error analysis which yields a high probability range for these estimators. For this particular quantity, this error range falls off as $\sim 1/\sqrt{\ell},$ independent of the network size! For further detail and many other examples of estimators of network properties, including one for the full network size, see [this paper](https://willowbk.github.io/publication/RapidBayesianInference).
+where $\mathcal{K}_k$ is the number of visits to any node with connectivity $k$. This formalism also establishes a rigorous error analysis which yields a high probability range for these estimators. For this particular quantity, this error range falls off as $\sim 1/\sqrt{\ell},$ independent of the network size! This estimator captures the true value long before the diffusive process of the random walk reaches equilibrium. For further detail and many other examples of estimators of network properties, including one for the full network size, see [this paper](https://willowbk.github.io/publication/RapidBayesianInference).
 
 Epidemiology
 ====
-A clear example of a complex network in the life sciences is one which describes a geographical regions in which a pathogen might spread. 
+A clear example of a complex network in the life sciences is one which describes a geographical region through which a pathogen might spread. This could be the network of all major cities in the world, with dynamical links representing traffic between each city, or the network of all major airports. Although this is a dynamical network upon which the disease spreads, random walk sampling can indeed
 
 
 <!--
