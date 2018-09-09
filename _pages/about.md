@@ -7,8 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<hr \>The field of biophysics covers a vast umbrella of topics. During my graduate career I have delved into several subfields of this enormous science with the intent to grasp the mystery of life on a fundamental level. This has been primarily done through the avenues of molecular evolution modeling, complex network science and inference, the study of stochastic processes and even objective function optimization.
+    The field of biophysics covers a vast umbrella of topics. During my graduate career I have delved into several subfields of this enormous science with the intent to grasp the mystery of life on a fundamental level. This has been primarily done through the avenues of molecular evolution modeling, complex network science and inference, the study of stochastic processes and even objective function optimization.
 
+$\widehat{\langle w \rangle} = \frac{\ell}{\sum_w \mathcal{K}_w / w}$
 
 <!--
 Network Science 
