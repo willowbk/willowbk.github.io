@@ -7,6 +7,6 @@ date: 2013-01-09
 venue: 'Optical Society of America'
 ---
 
-My contribution to this research project consisted of operating and maintaining the high-intensity laser system, as well as data acuisition, in Prof. Barry Walker's lab at the University of Delaware. A full description of the laser system can be found [here](https://sites.udel.edu/bcwalker/research/). 
+My contribution to this research project consisted of operating and maintaining the high-intensity laser system, as well as data acquisition, in Prof. Barry Walker's lab at the University of Delaware. A full description of the laser system can be found [here](https://sites.udel.edu/bcwalker/research/). 
 
 [See full paper here](https://www.osapublishing.org/abstract.cfm?uri=CLEO_QELS-2013-QTh1D.4)
