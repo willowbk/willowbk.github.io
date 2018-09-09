@@ -30,7 +30,7 @@ when only $\ell\ll N$ nodes have been sampled, and $\mathcal{K}_k$ nodes with co
 
 and yet proves to be a much better estimator!  
 
-This formalism also establishes a rigorous error analysis which yields a high probability range for these estimators. For this particular quantity, this error range falls off as $\sim 1/\sqrt{\ell},$ independent of the network size! This estimator captures the true value long before the diffusive process of the random walk reaches equilibrium. For further detail and many other examples of estimators of network properties that this formalism can generate, including one for the full network size, see [this paper](https://willowbk.github.io/publication/RapidBayesianInference).
+This formalism also establishes a rigorous error analysis which yields a high probability range for these estimators. For this particular quantity, this error range falls off as $\sim 1/\sqrt{\ell},$ independent of the network size! This estimator captures the true value long before the diffusive process of the random walk reaches equilibrium. For further detail and other examples of network property estimators that this formalism yields, including one for the full network size, see [this paper](https://willowbk.github.io/publication/RapidBayesianInference).
 
 Epidemiology
 ====
@@ -40,11 +40,9 @@ A clear example of a complex network in the life sciences is one which describes
 \beta_\text{critical} \propto \langle k \rangle,
 \end{aligned}
 
-above which there can be an epidemic outbreak. Clearly this is a valuable quantity to estimate, and can be more accurately and with a smaller sample size when employing random walk sampling.  
+above which there can be an epidemic outbreak. Clearly this is a valuable quantity to estimate, and can be attained accurately and with a small sample size when employing random walk sampling.  
 
-Although the infection process itself is dynamic with time-dependent properties upon which the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. this network has been sampled both in [this poster](https://willowbk.github.io/talks/NetworkInferencePoster) and [this paper](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected accurately estimated. This then suggests a new method for tracking the spread of diseases such as the recent Ebola outbreak.
-
-
+Although the infection process itself is dynamic as the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. this network has been sampled both in [this poster](https://willowbk.github.io/talks/NetworkInferencePoster) and [this paper](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected, $\rho(t)$, accurately estimated. This then suggests a new method for tracking the spread of diseases, such as the recent Ebola outbreak, and acquiring valuable incites into the course of the epidemic.
 
 Cancer Research
 ====
