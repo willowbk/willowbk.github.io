@@ -58,6 +58,7 @@ Awards & Fellowships
 * TA-GA Professional Development Fund, Rutgers University, 2017
 * [<span style="color:cyan">Richard J. Plano Outstanding Teaching Assistant</span>](https://www.physics.rutgers.edu/ugrad/awards/plano_ta.html), Rutgers University, 2016
 * [<span style="color:lightblue">Undergraduate Summer Scholars Research Experience</span>](http://www.urp.udel.edu/urp/summer-research/summer-scholars/), University of Delaware, 2011
+
 Teaching Experience
 ======
   <ul>{% for post in site.teaching reversed %}
@@ -86,4 +87,4 @@ Skills
 * Microcontroller Experience
   * Raspberry Pi
   * Arduino
-* Experience with HPC systems with Slurm Workload Managers
+* Experienced in HPC systems with Slurm Workload Managers
