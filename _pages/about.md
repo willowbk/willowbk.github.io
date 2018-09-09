@@ -14,7 +14,7 @@ Complex Networks
 
 The instances of [complex networks](https://en.wikipedia.org/wiki/Complex_network) in the life sciences are endless. Examples include protein interaction networks, neural networks, networks of predator-prey interactions, etc. In my own research, I have focused on weighted, undirected networks (i.e. the edge weights $w_{ji} = w_{ij}$ are symmetric between nodes $i$ and $j$), the main contribution being a general Bayesian theoretical formalism for generating estimators of global network properties after sampling only a very small portion of the entire system, $<1\%$. The method of sampling is via [random walk](https://en.wikipedia.org/wiki/Random_walk), e.i. after a single node is examined a random neighbor is chosen as the next sample, and this process is continued until the number of desired samples is attained.  
 
-<div style="text-align:center"><img src ="/images/infin_network.png" width='500'/></div>
+<div style="text-align:center"><img src ="/images/infin_network.png" width='500'/>This is a microscopic view of a complex network with symmetric edge weights, $w_{ji}$, for any pair of nodes $i$ and $j$. The node labeled $i$ in the image has $k_i = 4$ neighbors.</div>
 
 According to this Bayesian formalism, the estimator for the network-wide average connectivity, denoted $\langle k \rangle\equiv \sum_i k_i / N$ for a network with $N$ nodes, is given by
 
@@ -48,6 +48,19 @@ Cancer Research
 ====
 Although in its early stages, I have begun a project to use the network sampling methodology to determine which groups of genes are responsible for the metabolism of cancerous cells. More to come on this topic in the near future!
 
+Molecular Evolution 
+====
+Outside the realm of complex network science, much of my graduate career has been spent modeling life processes on both the molecular and population levels. My main objective has been the development of a biophysical model for the computational prediction of genomic features such as the [codon usage bias](https://en.wikipedia.org/wiki/Codon_usage_bias).
+
+Predicting the Codon Usage Bias
+====
+The central dogma of biology has triplets of nucleotides called codons translated into amino acids for the production of all proteins. As there are far more codons than amino acids, this translation code is necessarily degenerate with as many as six codons translated into a single amino acid. With the functionality of proteins determined by their amino acid sequences, the choice of synonymous codon should be random or determined solely through mutational rates. However, this is not what is observed in coding sequence data. The unexpected enrichment in the usage of certain synonymous codons is known as the codon bias.
+
+A proposed explanation for this bias is the theory that certain codons are more efficiently translated by the ribosome than others. Efficiency can be characterized as a balance between translation speed and accuracy: a particular codon may be more rapidly translated due to a higher concentration in the tRNA pool, but may also result in more translation errors. These translation errors are the direct result of the wobble hypothesis which states that each codon can be recognized by other-than-cognate tRNA species with each mispairing only occuring in the 3' nucleotide position. 
+
+<div style="text-align:center"><img src ="/images/wobble.png" width='300'/>This image of the mechanics of a ribosome during translation in <i>Escerichia coli</i> shows how wobble pairing can be responsible for an amino acid swap (Isoleucine to Methionine) during protein production on a [thrA gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC350143/) transcript. Both of these tRNA species are present in <i>E. coli</i> K-12 MG 1655 cells and so this mispairing can indeed occur. </div>
+
+For this project I have modeled the fitness of an organism as a function of codon translation efficiency and demonstrate that with reasonable biophysical parameters, codon bias is well characterized as a balance between mutation and selection on translation speed and accuracy when the wobble hypothesis is included in sufficient detail. Additionally it can be shown that the effects of the topology of the network formed by single-point mutations between codons significantly contribute to the codon bias.
 
 <!--
 Network Science 
