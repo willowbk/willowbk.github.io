@@ -12,25 +12,30 @@ The field of biophysics covers a vast umbrella of topics. During my graduate car
 Complex Networks
 ====
 
-The instances of [complex networks](https://en.wikipedia.org/wiki/Complex_network) in the life sciences are endless. Examples include protein interaction networks, neural networks, networks of predator-prey interactions, etc. In my own research, I have focused on weighted, undirected networks, the main contribution being a general Bayesian formalism for generating estimators of global network properties after sampling only a very small portion of the entire system, $<1\%$. The method of sampling is via [random walk](https://en.wikipedia.org/wiki/Random_walk), e.i. after a single node is examined a random neighbor is chosen as the next sample, and this process is continued until the number of desired samples is attained.  
+The instances of [complex networks](https://en.wikipedia.org/wiki/Complex_network) in the life sciences are endless. Examples include protein interaction networks, neural networks, networks of predator-prey interactions, etc. In my own research, I have focused on weighted, undirected networks (i.e. the edge weights $w_{ji} = w_{ij}$ are symmetric between nodes $i$ and $j$), the main contribution being a general Bayesian theoretical formalism for generating estimators of global network properties after sampling only a very small portion of the entire system, $<1\%$. The method of sampling is via [random walk](https://en.wikipedia.org/wiki/Random_walk), e.i. after a single node is examined a random neighbor is chosen as the next sample, and this process is continued until the number of desired samples is attained.  
 
-According to this Bayesian formalism, the estimator for the network-wide average connectivity, denoted $\langle c \rangle$, is given by
+<img align="center" src='/images/infin_network.png' width='500'> 
+<div style="text-align:center"><img src ="/images/infin_network.png" width='500'/></div>
 
-\begin{aligned}
-\widehat{\langle c \rangle} = \frac{\ell}{\sum_c \mathcal{K}_c / c},
-\end{aligned}
-
-where $\ell$ is the sample size, and $\mathcal{K}_c$ is the number of visits to nodes with connectivity $c$. This can be compared to what is typically done when nodes are sampled uniformly:
+According to this Bayesian formalism, the estimator for the network-wide average connectivity, denoted $\langle k \rangle\equiv $, is given by
 
 \begin{aligned}
-\widehat{\langle c \rangle} = \frac{\sum_c c \mathcal{K}_c}{\ell}.
+\widehat{\langle k \rangle} = \frac{\ell}{\sum_k \mathcal{K}_k / k},
 \end{aligned}
 
-This formalism also establishes a rigorous error analysis which yields a high probability range for these estimators. For this particular quantity, this error range falls off as $\sim 1/\sqrt{\ell},$ independent of the network size! This estimator captures the true value long before the diffusive process of the random walk reaches equilibrium. For further detail and many other examples of estimators of network properties, including one for the full network size, see [this paper](https://willowbk.github.io/publication/RapidBayesianInference).
+when only $\ell$ nodes have been sampled, and there $\mathcal{K}_k$ is the number of visits to nodes with connectivity $k$. This can be compared to what is typically done when nodes are sampled uniformly:
+
+\begin{aligned}
+\widehat{\langle k \rangle} = \frac{\sum_k k \mathcal{K}_k}{\ell}.
+\end{aligned}
+
+This formalism also establishes a rigorous error analysis which yields a high probability range for these estimators. For this particular quantity, this error range falls off as $\sim 1/\sqrt{\ell},$ independent of the network size! This estimator captures the true value long before the diffusive process of the random walk reaches equilibrium. For further detail and many other examples of estimators of network properties that this formalism can generate, including one for the full network size, see [this paper](https://willowbk.github.io/publication/RapidBayesianInference).
 
 Epidemiology
 ====
-A clear example of a complex network in the life sciences is one which describes a geographical region through which a pathogen might spread. This could be the network of all major cities in the world, with dynamical links representing traffic between each city, or the network of all major airports, etc. Although this is a dynamical network with time-dependent properties upon which the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. Such a network has been sampled both in [this poster](https://willowbk.github.io/talks/NetworkInferencePoster) and [this paper](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected accurately estimated. This then suggests a new method for tracking the spread of diseases such as the recent Ebola outbreak.
+A clear example of a complex network in the life sciences is one which describes a geographical region through which a pathogen might spread. This could be the network of all major cities in the world, with dynamical links representing traffic between each city, or the network of all major airports, etc. Although this is a dynamic network with time-dependent properties upon which the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. Such a network has been sampled both in [this poster](https://willowbk.github.io/talks/NetworkInferencePoster) and [this paper](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected accurately estimated. This then suggests a new method for tracking the spread of diseases such as the recent Ebola outbreak.
+
+
 
 Cancer Research
 ====
