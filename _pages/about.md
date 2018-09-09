@@ -34,13 +34,15 @@ This formalism also establishes a rigorous error analysis which yields a high pr
 
 Epidemiology
 ====
-A clear example of a complex network in the life sciences is one which describes a geographical region through which a pathogen might spread. This could be the network of all major cities in the world, with dynamical links representing traffic between each city, or the network of all major airports, etc. Such a model has been developed in [this paper](http://www.pnas.org/content/106/40/16897.short) where it has been shown that there is a critical value for the infection probability, $\beta$, given by
+A clear example of a complex network in the life sciences is one which describes a geographical region through which a pathogen might spread. This could be the network of all major cities in the world, with dynamical links representing traffic between each city, or the network of all major airports, etc. Such a model has been developed in [this paper](http://www.pnas.org/content/106/40/16897.short) where it has been shown that there is a critical value for the node infection probability per node, $\beta$, which is connected to the average network connectivity by
 
 \begin{aligned}
-\beta_\text{critical} \propto \langle k \rangle.
+\beta_\text{critical} \propto \langle k \rangle,
 \end{aligned}
 
-Although this is a dynamic network with time-dependent properties upon which the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. this network has been sampled both in [this poster](https://willowbk.github.io/talks/NetworkInferencePoster) and [this paper](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected accurately estimated. This then suggests a new method for tracking the spread of diseases such as the recent Ebola outbreak.
+above which there can be an epidemic outbreak. Clearly this is a valuable quantity to estimate, and can be more accurately and with a smaller sample size when employing random walk sampling.  
+
+Although the infection process itself is dynamic with time-dependent properties upon which the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. this network has been sampled both in [this poster](https://willowbk.github.io/talks/NetworkInferencePoster) and [this paper](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected accurately estimated. This then suggests a new method for tracking the spread of diseases such as the recent Ebola outbreak.
 
 
 
