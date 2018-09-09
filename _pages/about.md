@@ -15,10 +15,6 @@ Complex Networks
 The instances of [complex networks](https://en.wikipedia.org/wiki/Complex_network) in the life sciences are endless. Examples include protein interaction networks, neural networks, networks of predator-prey interactions, etc. In my own research, I have focused on weighted, undirected networks (i.e. the edge weights $w_{ji} = w_{ij}$ are symmetric between nodes $i$ and $j$), the main contribution being a general Bayesian theoretical formalism for generating estimators of global network properties after sampling only a very small portion of the entire system, $<1\%$. The method of sampling is via [random walk](https://en.wikipedia.org/wiki/Random_walk), e.i. after a single node is examined a random neighbor is chosen as the next sample, and this process is continued until the number of desired samples is attained.  
 
 <div style="text-align:center"><img src ="/images/infin_network.png" width='500'/></div>
-<div style="text-align:center">This is a microscopic view of a complex network with  
-symmetric edge weights, $w_{ji}$, for any pair of nodes $i$ and $j$.  
-The node labeled $i$ in the image has $k_i = 4$ neighbors to transition  
-in the next step of the random walk.</div>
 
 According to this Bayesian formalism, the estimator for the network-wide average connectivity, denoted $\langle k \rangle\equiv \sum_i k_i / N$ for a network with $N$ nodes, is given by
 
@@ -63,31 +59,9 @@ The central dogma of biology has triplets of nucleotides called codons translate
 A proposed explanation for this bias is the theory that certain codons are more efficiently translated by the ribosome than others. Efficiency can be characterized as a balance between translation speed and accuracy: a particular codon may be more rapidly translated due to a higher concentration in the tRNA pool, but may also result in more translation errors. These translation errors are the direct result of the wobble hypothesis which states that each codon can be recognized by other-than-cognate tRNA species with each mispairing only occuring in the 3' nucleotide position. 
 
 <div style="text-align:center"><img src ="/images/wobble.png" width='300'/></div>
-<div style="text-align:center">This image of the mechanics of a ribosome during  
-  translation in <i>Escerichia coli</i> shows how wobble pairing
-  can be responsible for an amino acid swap (Isoleucine to Methionine)
-  during protein production on a [thrA gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC350143/) transcript.
-  Both of these tRNA species are present in <i>E. coli</i> K-12 MG 1655 
-  cells and so this mispairing can indeed occur. </div>
+The above image of the mechanics of a ribosome during translation in <i>Escerichia coli</i> shows how wobble pairing can be responsible for an amino acid swap (Isoleucine to Methionine) during protein production on a [thrA gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC350143) transcript. Both of these tRNA species are present in <i>E. coli</i> K-12 MG 1655 cells and so this mispairing can indeed occur. 
 
-For this project I have modeled the fitness of an organism as a function of codon translation efficiency and demonstrate that with reasonable biophysical parameters, codon bias is well characterized as a balance between mutation and selection on translation speed and accuracy when the wobble hypothesis is included in sufficient detail. Additionally it can be shown that the effects of the topology of the network formed by single-point mutations between codons significantly contribute to the codon bias.
-
-<!--
-Network Science 
-======
-Complex networks describe a broad spectrum of systems in nature, science, technology, and society. Many of these networks are large and evolving, making
-investigation of their statistical properties a challenging task. In particular, estimating the network size becomes non-trivial if the network is too large to visit every node. Consequently, predicting various network statistics, typically from random samples of limited size, has attracted considerable attention in the
-literature.
-
-This research project has consisted of the development of a Bayesian theoretical framework for network sampling by random walks (RWs). Unlike previous results, this framework can be used to build
-posterior probability distributions for any network node-based quantity of interest. This approach reproduces several previously known global network statistics estimators within a single formalism,
-automatically removes statistical biases caused by RW sampling, and yields standard results in the uniform sampling limit. Surprisingly, accurate estimates of various network properties, including its size, are obtained
-after examining only a small fraction of all network nodes.
-
-The effectiveness of this formalism has been demonstrated not only on standard $\textit{in silico}$ networks, but additonally has been shown to have applications in epidemiology, and has reproduced known statistics of the network formed by links between pages on Wikipedia.
--->
-
-
+For this project we model the fitness of an organism as a function of codon translation efficiency and demonstrate that with reasonable biophysical parameters, codon bias is well characterized as a balance between mutation and selection on translation speed and accuracy when the wobble hypothesis is included in sufficient detail. Additionally it can be shown that the effects of the topology of the network formed by single-point mutations between codons significantly contribute to the codon bias. For more detail see the section on [presentations and posters](https://willowbk.github.io/talks).
 
 <!---
 A data-driven personal website
