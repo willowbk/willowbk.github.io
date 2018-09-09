@@ -9,16 +9,24 @@ redirect_from:
 ---
 The field of biophysics covers a vast umbrella of topics. During my graduate career I have delved into several subfields of this enormous science with the hope to grasp the mysteries of life on a fundamental level. This has been attempted primarily through the avenues of complex network science and inference, molecular evolution and population genetics modeling, the study of stochastic processes and even objective function optimization. The following sections overview some of the work I have completed in the last few years on these topics.
 
-Sampling Complex Networks
+Complex Networks
 ====
 
-The instances of [complex networks](https://en.wikipedia.org/wiki/Complex_network) in the life sciences are endless. Examples include protein interaction networks, neural networks, networks of predator-prey interactions, etc. In my own research, I have focused on weighted, undirected networks, the main contribution being a general Bayesian formalism for generating estimators of global network properties after sampling only a very small portion of the entire system, $<1\%$. The method of sampling is via [random walk](https://en.wikipedia.org/wiki/Random_walk), e.i. after a single node is examined a random neighbor to this node is chosen as the next sample, and this process is continued until the number of desired samples is attained. According to this Bayesian formalism, if the number of neighbors of any node (i.e. the node connectivity) is denoted $k$, and there are $\ell$ samples taken in total, the estimator for the network-wide average of $k$ is given by
+The instances of [complex networks](https://en.wikipedia.org/wiki/Complex_network) in the life sciences are endless. Examples include protein interaction networks, neural networks, networks of predator-prey interactions, etc. In my own research, I have focused on weighted, undirected networks, the main contribution being a general Bayesian formalism for generating estimators of global network properties after sampling only a very small portion of the entire system, $<1\%$. The method of sampling is via [random walk](https://en.wikipedia.org/wiki/Random_walk), e.i. after a single node is examined a random neighbor is chosen as the next sample, and this process is continued until the number of desired samples is attained.  
+
+According to this Bayesian formalism, the estimator for the network-wide average connectivity, denoted $\langle c \rangle$, is given by
 
 \begin{aligned}
-\widehat{\langle k \rangle} = \frac{\ell}{\sum_k \mathcal{K}_k / k},
+\widehat{\langle c \rangle} = \frac{\ell}{\sum_c \mathcal{K}_c / c},
 \end{aligned}
 
-where $\mathcal{K}_k$ is the number of visits to any node with connectivity $k$. This formalism also establishes a rigorous error analysis which yields a high probability range for these estimators. For this particular quantity, this error range falls off as $\sim 1/\sqrt{\ell},$ independent of the network size! This estimator captures the true value long before the diffusive process of the random walk reaches equilibrium. For further detail and many other examples of estimators of network properties, including one for the full network size, see [this paper](https://willowbk.github.io/publication/RapidBayesianInference).
+where $\ell$ is the sample size, and $\mathcal{K}_c$ is the number of visits to nodes with connectivity $c$. This can be compared to what is typically done when nodes are sampled uniformly:
+
+\begin{aligned}
+\widehat{\langle c \rangle} = \frac{\sum_c c \mathcal{K}_c}{\ell}.
+\end{aligned}
+
+This formalism also establishes a rigorous error analysis which yields a high probability range for these estimators. For this particular quantity, this error range falls off as $\sim 1/\sqrt{\ell},$ independent of the network size! This estimator captures the true value long before the diffusive process of the random walk reaches equilibrium. For further detail and many other examples of estimators of network properties, including one for the full network size, see [this paper](https://willowbk.github.io/publication/RapidBayesianInference).
 
 Epidemiology
 ====
