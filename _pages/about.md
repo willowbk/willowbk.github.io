@@ -67,11 +67,11 @@ For this project the fitness of an organism is modeled as a function of codon tr
 
 Objective Function Optimization
 ====
-Evolutionary biology is ripe with instances of optimized physiology and behaviors. In the field of computer science, many modern optimization algorithms designed to find the extremum of some objective function are based on or inspired by natural phenomena Examples include simulated annealing; guided by the laws of statistical mechanics, and genetic algorithms; structured to mimic evolutionary processes. These algorithms often put faith in some underlying principle; an alternative approach could be to develop a strategy-based algorithm which makes intelligent choices based on the local information of the objective function landscape, and updates its decisions after considering the history of the optimization.  
+Evolutionary biology is ripe with instances of optimized physiology and behaviors. In the field of computer science, many modern optimization algorithms designed to find the extremum of some objective function are based on, or inspired by, natural phenomena. Examples include simulated annealing; guided by the laws of statistical mechanics, and genetic algorithms; structured to mimic evolutionary processes. These algorithms often put faith in some underlying principle. An alternative approach could be to develop a strategy-based algorithm which makes intelligent choices based on the local information of the objective function landscape, and updates its decisions after considering the history of the optimization.  
 
-A strategy-based algorithm has been employed in the codon bias project described previously, and a general form is in production. Below is an animation of one of the early algorithms learning to rotate a cluster of rigid mass points into the first octant.
+A strategy-based algorithm has been employed in the codon bias project described previously, and a general formulation is in production. Below is an animation of one of the early algorithms learning to rotate a cluster of rigid mass points into the first octant.
 
-<div style="text-align:center"><img src="/images/Rig_Rot_D3_N100.gif" width="400"/> </div>
+<div style="text-align:center"><img src="/images/Rig_Rot_D3_N100.gif" width="500"/> </div>
 <!---
 A data-driven personal website
 ======
