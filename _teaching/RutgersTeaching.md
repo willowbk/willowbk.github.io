@@ -3,7 +3,7 @@ title: "Teaching experience at Rutgers University"
 collection: teaching
 type: "Undergraduate recitations and lab sections"
 permalink: /teaching/RutgersTeaching
-venue: "Rutgers University,Department of Physics & Astronomy"
+venue: "Rutgers University, Department of Physics & Astronomy"
 date: 2013-09-01
 excerpt: 'During my time at Rutgers University, I have been teaching both recitation and lab sections for the Spring, Summer and Fall sessions for all but two semesters of my graduate career.'
 location: "Pistataway, NJ"
