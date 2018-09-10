@@ -42,7 +42,7 @@ A clear example of a complex network in the life sciences is one which describes
 
 above which there can be an epidemic outbreak. Clearly this is a valuable quantity to estimate, and can be attained accurately and with a small sample size when employing random walk sampling.  
 
-Although the infection process itself is dynamic as the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. this network has been sampled both in [this poster](https://willowbk.github.io/talks/NetworkInferencePoster) and [this paper](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected, $\rho(t)$, accurately estimated. This then suggests a new method for tracking the spread of diseases, such as the recent Ebola outbreak, and acquiring valuable incites into the course of the epidemic.
+Although the infection process itself is dynamic as the disease spreads, random walk sampling is indeed applicable given a "rapid-enough" sampling process. This network has been sampled both in [this poster](https://willowbk.github.io/talks/NetworkInferencePoster) and [this paper](https://willowbk.github.io/publication/RapidBayesianInference) and the fraction of nodes (cities) infected, $\rho(t)$, accurately estimated. This then suggests a new method for tracking the spread of diseases, such as the recent Ebola outbreak, and for acquiring valuable incites into the course of the epidemic.
 
 Cancer Research
 ====
