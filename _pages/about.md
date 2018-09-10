@@ -60,7 +60,7 @@ A proposed explanation for this bias is the theory that certain codons are more 
 
 <div style="text-align:center"><img src ="/images/wobble.png" width='300'/>  </div>  
 $~$                                                              
-The above image of the mechanics of a ribosome during translation in <i>Escerichia coli</i> shows how wobble pairing can be responsible for an amino acid swap (Isoleucine to Methionine) during protein production on a [thrA gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC350143) transcript. Both of these tRNA species are present in <i>E. coli</i> K-12 MG 1655 cells and so this mispairing can indeed occur. 
+The above image of the mechanics of a ribosome during translation in <i>Escherichia coli</i> shows how wobble pairing can be responsible for an amino acid swap (Isoleucine to Methionine) during protein production on a [thrA gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC350143) transcript. Both of these tRNA species are present in <i>E. coli</i> K-12 MG 1655 cells and so this mispairing can indeed occur. 
 
 For this project the fitness of an organism is modeled as a function of codon translation efficiency. With reasonable biophysical parameters the codon bias is well characterized as a balance between mutation and selection on translation speed and accuracy when the wobble hypothesis is included in sufficient detail. Additionally the effects of the topology of the network formed by single-point mutations between codons significantly contribute to the codon bias. For further details on this project see the section on [presentations and posters](https://willowbk.github.io/talks), and a paper soon-to-come.
 
