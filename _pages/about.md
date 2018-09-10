@@ -62,8 +62,16 @@ A proposed explanation for this bias is the theory that certain codons are more 
 $~$                                                              
 The above image of the mechanics of a ribosome during translation in <i>Escerichia coli</i> shows how wobble pairing can be responsible for an amino acid swap (Isoleucine to Methionine) during protein production on a [thrA gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC350143) transcript. Both of these tRNA species are present in <i>E. coli</i> K-12 MG 1655 cells and so this mispairing can indeed occur. 
 
-For this project we model the fitness of an organism as a function of codon translation efficiency and demonstrate that with reasonable biophysical parameters, the codon bias is well characterized as a balance between mutation and selection on translation speed and accuracy when the wobble hypothesis is included in sufficient detail. Additionally it can be shown that the effects of the topology of the network formed by single-point mutations between codons significantly contribute to the codon bias. For further details on this project see the section on [presentations and posters](https://willowbk.github.io/talks), and a paper soon-to-come.
+For this project the fitness of an organism is modeled as a function of codon translation efficiency. With reasonable biophysical parameters the codon bias is well characterized as a balance between mutation and selection on translation speed and accuracy when the wobble hypothesis is included in sufficient detail. Additionally the effects of the topology of the network formed by single-point mutations between codons significantly contribute to the codon bias. For further details on this project see the section on [presentations and posters](https://willowbk.github.io/talks), and a paper soon-to-come.
 
+
+Objective Function Optimization
+====
+Evolutionary biology is ripe with instances of optimized physiology and behaviors. In the field of computer science, many modern optimization algorithms designed to find the extremum of some objective function are based on or inspired by natural phenomena Examples include simulated annealing; guided by the laws of statistical mechanics, and genetic algorithms; structured to mimic evolutionary processes. These algorithms often put faith in some underlying principle; an alternative approach could be to develop a strategy-based algorithm which makes intelligent choices based on the local information of the objective function landscape, and updates its decisions after considering the history of the optimization.  
+
+A strategy-based algorithm has been employed in the codon bias project described previously, and a general form is in production. Below is an animation of one of the early algorithms learning to rotate a cluster of rigid mass points into the first octant.
+
+<div style="text-align:center"><img src="/images/Rig_Rot_D3_N100.gif" width="400"/> </div>
 <!---
 A data-driven personal website
 ======
