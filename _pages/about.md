@@ -14,7 +14,7 @@ Complex Networks
 
 The instances of [complex networks](https://en.wikipedia.org/wiki/Complex_network) in the life sciences are endless. Examples include protein interaction networks, neural networks, networks of predator-prey interactions, etc. In my own research, I have focused on weighted, undirected networks (i.e. the edge weights $w_{ji} = w_{ij}$ are symmetric between nodes $i$ and $j$), the main contribution being a general Bayesian theoretical formalism for generating estimators of global network properties after sampling only a very small portion of the entire system, $<1\%$. The method of sampling is via [random walk](https://en.wikipedia.org/wiki/Random_walk), e.i. after a single node is examined a random neighbor is chosen as the next sample, and this process is continued until the number of desired samples is attained.  
 
-<div style="text-align:center"><img src ="/images/infin_network.png" width='500'/></div>
+<div style="text-align:center"><img src ="/images/infin_network.png" width='525'/></div>
 
 According to this Bayesian formalism, the estimator for the network-wide average connectivity, denoted $\langle k \rangle\equiv \sum_i k_i / N$ for a network with $N$ nodes, is given by
 
@@ -60,7 +60,7 @@ A proposed explanation for this bias is the theory that certain codons are more 
 
 <div style="text-align:center"><img src ="/images/wobble.png" width='300'/>  </div>  
 $~$                                                              
-The above image of the mechanics of a ribosome during translation in <i>Escherichia coli</i> shows how wobble pairing can be responsible for an amino acid swap (Isoleucine to Methionine) during protein production on a [thrA gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC350143) transcript. Both of these tRNA species are present in <i>E. coli</i> K-12 MG 1655 cells and so this mispairing can indeed occur. 
+The above image of the mechanics of a ribosome during translation in <i>Escherichia coli</i> shows how wobble pairing can be responsible for an amino acid swap (Isoleucine to Methionine) during protein production on a [thrA gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC350143) transcript. Both of these tRNA species are present in <i>E. coli</i> K-12 MG1655 cells and so this mispairing can indeed occur. 
 
 For this project the fitness of an organism is modeled as a function of codon translation efficiency. With reasonable biophysical parameters the codon bias is well characterized as a balance between mutation and selection on translation speed and accuracy when the wobble hypothesis is included in sufficient detail. Additionally the effects of the topology of the network formed by single-point mutations between codons significantly contribute to the codon bias. For further details on this project see the section on [presentations and posters](https://willowbk.github.io/talks), and a paper soon-to-come.
 
