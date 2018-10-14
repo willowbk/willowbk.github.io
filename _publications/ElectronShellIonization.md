@@ -14,4 +14,4 @@ My contribution to this research project consisted of operating and maintaining 
 
 N. Ekanayake, S. Luo, P. D. Grugan, **W. B. Crosby**, A. D. Camilo, C. V. McCowan, R. Scalzi, A. Tramontozzi, L. E. Howard, S. J. Wells, C. Mancuso, T. Stanev, M. F. Decamp, and B. C. Walker
 
-Phys. Rev. Lett. 110, 203003 – Published 15 May 2013
+Phys Rev Lett. 2013 May 15;110(20):203003
