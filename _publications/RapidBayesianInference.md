@@ -11,5 +11,5 @@ This paper introduces a novel methodology for network statistics acquisition via
 
 [See full paper here](http://willowbk.github.io/files/RapidBayesianInferenceofGlobalNetworkStatisticsUsingRandomWalks.pdf)
 
-Willow B. Kion-Crosby and Alexandre V. Morozov
+**Willow B. Kion-Crosby** and Alexandre V. Morozov
 Phys. Rev. Lett. 121, 038301 – Published 20 July 2018
