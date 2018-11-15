@@ -65,12 +65,16 @@ Teaching Experience
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service & leadership
+Service & Leadership
 ======
 * **Vice President** of the [<span style="color:#4bcadd">Rutgers Physics Graduate Student Organization (GSO)</span>](http://www.physics.rutgers.edu/GSO/), 2018 - 2019 
 * **Organizer** of the [<span style="color:#4bcadd">Student Seminars in Physics and Astronomy at Rutgers</span>](http://www.physics.rutgers.edu/gso/SSPAR/), 2018 - 2019
 * **Mentor** to an undergraduate physics student completing a [<span style="color:#4bcadd">Rutgers Senior Honors Thesis</span>](https://amerstudies.rutgers.edu/academics/undergraduate/honors/senior-honors-thesis), 2017 - 2018
 * **Mentor** to a high school student conducting research for the [<span style="color:#4bcadd">Siemens Competition</span>](http://www.siemens-foundation.org/programs/siemens-competition-archives/2017/2017-semifinalists/), 2016
+
+Professional Training
+======
+* **Machine Learning** by Stanford University on Coursera. Certificate earned, 2018
 
 Skills
 ======
