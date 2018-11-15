@@ -79,7 +79,7 @@ Professional Training
 Skills
 ======
 * Programming languages
-  * Python (experienced using the modules $\texttt{numpy}$, $\texttt{pandas}$, $\texttt{Biopython}$, $\texttt{Matplotlib}$, $\texttt{scikit-learn}$ and more.)
+  * Python (experienced using many modules including $\texttt{numpy}$, $\texttt{pandas}$, $\texttt{Biopython}$, $\texttt{Matplotlib}$, $\texttt{scikit-learn}$ and more.)
   * MATLAB
   * G (LabVIEW)
   * Java (experienced with Android application development.)
