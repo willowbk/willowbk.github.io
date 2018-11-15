@@ -74,7 +74,7 @@ Service & Leadership
 
 Professional Training
 ======
-* **Machine Learning** by Stanford University on Coursera. Certificate earned, 2018
+* **Machine Learning** by Stanford University on Coursera. [Certificate](http://willowbk.github.io/files/CourseraMLCertificate.pdf) earned, 2018
 
 Skills
 ======
