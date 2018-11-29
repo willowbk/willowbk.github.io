@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-The field of biophysics covers a vast umbrella of topics and subfields. During my graduate career at Rutgers University I have delved into several these subfields in an attempt to understanding the workings of living matter. My approach has been primarily through the avenues of complex network science and inference, molecular evolution and population genetics modeling, the study of stochastic processes, and even objective function optimization. The following sections overview some of the work I have completed in the last few years on these topics.
+The field of biophysics covers a vast umbrella of topics and subfields. During my graduate career at Rutgers University I have delved into several of these subfields in an attempt to understand the workings of living matter. My approach has been primarily through the avenues of complex network science and inference, molecular evolution and population genetics modeling, the study of stochastic processes, and objective function optimization. The following sections overview some of the work I have completed in the last few years on these topics.
 
 Complex Networks
 ====
