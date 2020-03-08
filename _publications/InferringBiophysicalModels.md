@@ -1,7 +1,7 @@
 ---
 title: "Inferring biophysical models of evolution from genome-wide patterns of codon usage"
 collection: publications
-permalink: /publication/InferringBiophysicsModels
+permalink: /publication/InferringBiophysicalModels
 excerpt: 'The unexpected enrichment in the usage of certain synonymous codons is known as the codon usage bias. In this paper, we examine the relative importance of various elements of the translation process, including wobble pairing, which may contribute to the choice of synonymous codon in the context of a mutation-selection population genetics model. '
 date: 2019-03-16
 venue: 'bioRxiv'
