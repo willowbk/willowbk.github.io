@@ -1,13 +1,13 @@
 ---
 permalink: /
 title: "Biophysics in Network Science, Molecular Evolution, Stochastic Processes, and Optimization"
-excerpt: "I am a researcher near completion of my Ph.D in Physics & Astronomy studying various topics in the field of biological physics."
+excerpt: "I am a researcher with a recent completion of my Ph.D at Rutgers University in Physics & Astronomy studying various topics in the field of biological physics."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-The field of biophysics covers a vast umbrella of topics and subfields. During my graduate career at Rutgers University I have delved into several of these subfields in an attempt to understand the workings of living matter. My approach has been primarily through the avenues of complex network science and inference, molecular evolution and population genetics modeling, the study of stochastic processes, and objective function optimization. The following sections overview some of the work I have completed in the last few years on these topics.
+The field of biophysics covers a vast umbrella of topics and subfields. During my graduate career at Rutgers University I delved into several of these subfields in an attempt to understand the workings of living matter. My approach has been primarily through the avenues of complex network science and inference, molecular evolution and population genetics modeling, the study of stochastic processes, and objective function optimization. The following sections overview some of the work I have completed in the last few years on these topics.
 
 Complex Networks
 ====
@@ -62,7 +62,7 @@ A proposed explanation for this bias is that certain codons are more efficiently
 $~$                                                              
 The above image of the mechanics of a ribosome during translation in <i>Escherichia coli</i> shows how wobble pairing can be responsible for an amino acid swap (Isoleucine to Methionine when anticodon CAU pairs with codon AUA) during protein production on a [thrA gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC350143) transcript. Both of these tRNA species shown are present in <i>E. coli</i> K-12 MG1655 cells and so this mispairing can indeed occur. 
 
-For this project the fitness of an organism is modeled as a function of codon translation efficiency. With reasonable biophysical parameters the codon bias is well characterized as a balance between mutation and selection on translation speed and accuracy when the Wobble Hypothesis is included in sufficient detail. Additionally the effects of the topology of the network formed by single-point mutations between codons significantly contribute to the codon bias. For further details on this project see the section on [presentations and posters](https://willowbk.github.io/talks), and a paper soon-to-come.
+For this project the fitness of an organism is modeled as a function of codon translation efficiency. With reasonable biophysical parameters the codon bias is well characterized as a balance between mutation and selection on translation speed and accuracy when the Wobble Hypothesis is included in sufficient detail. Additionally the effects of the topology of the network formed by single-point mutations between codons significantly contribute to the codon bias. For further details on this project see the section on [presentations and posters](https://willowbk.github.io/talks), and [this paper](https://willowbk.github.io/publication/InferringBiophysicalModels).
 
 
 Objective Function Optimization
