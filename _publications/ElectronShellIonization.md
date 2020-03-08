@@ -3,7 +3,7 @@ title: "Electron Shell Ionization of Atoms with Classical, Relativistic Scatteri
 collection: publications
 permalink: /publication/ElectronShellIonization
 excerpt: 'Forward scattering of ionization from noble gases in ultrahigh intensities of 2×1019 W/cm2 is investigated. The observed strongly forward scattered photoionization is in agreement with classical field scattering employing the full nonparaxial laser field.'
-date: 2013-05-01
+date: 2013-05-15
 venue: 'Phys Rev Lett'
 ---
 
